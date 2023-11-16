@@ -1,0 +1,9 @@
+x=int(input("Enter The first Number : "))
+y=int(input("Enter The Second Number : "))
+print("Original Value of First Number = ",x)
+print("Original Value of Second Number = ",y)
+x=x^y
+y=x^y
+x=x^y
+print("First Number After Swapping = ",x)
+print("Second Number After Swapping = ",y)
